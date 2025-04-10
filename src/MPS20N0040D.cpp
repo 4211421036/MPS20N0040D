@@ -40,7 +40,6 @@ float MPS20N0040D::adcToVoltage(long adcValue) {
 
 float MPS20N0040D::voltageToPressure(float voltage) {
   // Konversi voltase ke tekanan (linearitas datasheet ±0.25% FS)
-  // Referensi jurnal: doi:10.3390/s19132985 (kalibrasi sensor MEMS)
   return (voltage / FS_OUTPUT) * PRESSURE_RANGE;
 }
 
