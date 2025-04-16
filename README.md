@@ -35,7 +35,7 @@ graph LR
 ```
 
 ## Wiring Diagram
-![Arduino Wiring Diagram](docs/wiring.png)
+![Arduino Wiring Diagram](https://github.com/4211421036/MPS20N0040D/docs/wiring.png)
 
 **The following is a description of the image:**
 1. The sensor, designated as MPS20N0040D-S, is connected to
